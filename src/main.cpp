@@ -5,8 +5,8 @@
 
 int main() {
   std::cout << "Enter path to video: ";
-  std::string path = "E:/Pets_pr/OpenCV_Lern/test/test_wideo.webm";
+  std::string path = "E:\\Pets_pr\\OpenCV_Lern\\test\\test_wideo.webm";
   VideoModule img(path);
-  img.show();
+  img.Show();
   return 0;
 }
